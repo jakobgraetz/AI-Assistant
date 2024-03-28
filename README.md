@@ -9,21 +9,26 @@ Before doing any of this, navigate to the desired directory. You will also need 
 
 1. **Clone the Repository**:
 
-       git clone https://github.com/johannesschiessl/AI-Assistant.git
+       $ git clone https://github.com/johannesschiessl/AI-Assistant.git
+
 2. **Navigate to the Project Directory**:
 
-       cd AI-Assistant
+       $ cd AI-Assistant
+
 3. **Install Requirements**:
 
-       # On Windows / Linux: pip install -r requirements.txt
-       # On MacOS: pip3 install -r requirements.txt
+       # On Windows / Linux: $ pip install -r requirements.txt
+       # On MacOS: $ pip3 install -r requirements.txt
    
 5. **Export your OpenAI API key to environmental variables**
 
-       # On MacOS / Linux: $ export OPENAI_API_KEY="your openai-api key"
-       # On Windows: $ setx OPENAI_API_KEY "your openai-api key"
+       # On MacOS / Linux: $ export OPENAI_API_KEY="your openai api key"
+       # On Windows: $ setx OPENAI_API_KEY "your openai api key"
+
 6. **Run the AI Assistant**
     
-       python assistant/main.py
+       # On MacOS: $ python3 assistant/main.py
+       # On Windows / Linux: $ python assistant/main.py
+
 ## Issues
 If you encounter any issues or have feature requests, feel free to [open an issue](https://github.com/johannesschiessl/AI-Assistant/issues/new).
